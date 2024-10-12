@@ -1,2 +1,2 @@
--Componente Buscador en el cual se busque un usuario y aparezcan la lista de experiencias de las cuales el usuario en cuestión es propietario.
--Aplicar los cambios que hicimos en la Tarea del seminario de Node.
+- Componente Buscador en el cual se busque un usuario y aparezcan la lista de experiencias de las cuales el usuario en cuestión es propietario.
+- Aplicar los cambios que hicimos en la Tarea del seminario de Node.
