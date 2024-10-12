@@ -1,0 +1,59 @@
+/* Contenedor del buscador */
+.buscador-container {
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Centramos el contenedor */
+    padding: 20px; /* Padding interno */
+    background-color: #8B0000; /* Rojo vino */
+    color: #FAF3E0; /* Blanco roto */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Título del buscador */
+.buscador-container h2 {
+    font-size: 2.2rem; /* Tamaño de letra */
+    color: #FAF3E0; /* Blanco roto */
+    text-align: center; /* Centrar texto */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilo de las etiquetas */
+.buscador-container label {
+    font-size: 1.1rem; /* Tamaño de letra */
+    color: #FAF3E0; /* Blanco roto */
+    margin-bottom: 5px; /* Margen inferior */
+    display: block; /* Asegurar que las etiquetas estén en su propia línea */
+}
+
+/* Estilo de los selectores (combobox) */
+.form-select {
+    padding: 12px; /* Padding interno */
+    border: 1px solid #4C0000; /* Borde rojo oscuro */
+    border-radius: 8px; /* Bordes redondeados */
+    width: 100%; /* Ancho completo */
+    margin-bottom: 15px; /* Margen inferior */
+    box-sizing: border-box; /* Incluir padding y borde dentro del ancho */
+}
+
+/* Estilo de la lista de resultados */
+.buscador-container ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+    margin-top: 20px; /* Margen superior para separar de los campos de búsqueda */
+}
+
+/* Estilo de cada ítem de la lista */
+.buscador-container li {
+    background-color: #8B0000; /* Rojo vino */
+    margin-bottom: 10px; /* Margen inferior */
+    padding: 10px; /* Padding interno */
+    border: 1px solid #ddd; /* Borde claro */
+    border-radius: 4px; /* Bordes redondeados */
+    color: #FAF3E0; /* Blanco roto */
+}
+
+/* Mensaje de error */
+.error-message {
+    color: red; /* Color rojo */
+    margin-bottom: 10px; /* Margen inferior */
+}

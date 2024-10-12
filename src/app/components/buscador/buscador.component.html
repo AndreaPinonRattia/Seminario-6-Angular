@@ -1,0 +1,32 @@
+<div class="buscador-container">
+    <h2>Buscar Experiencias por Usuario</h2>
+  
+    <label for="usuarioSeleccionado">Selecciona un usuario:</label>
+    <select
+      [(ngModel)]="usuarioSeleccionado"
+      (change)="buscarExperiencias()"
+      id="usuarioSeleccionado"
+      class="form-select"
+    >
+      <option value="">-- Selecciona un usuario --</option>
+      <option *ngFor="let usuario of usuarios" [value]="usuario._id">
+        {{ usuario.name }}
+      </option>
+    </select>
+  
+    <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+  
+    <div *ngIf="experiencias.length > 0">
+      <h3>Experiencias del usuario seleccionado:</h3>
+      <ul>
+        <li *ngFor="let experiencia of experiencias">
+          <h4>{{ experiencia.description }}</h4>
+          <p>Participantes: {{ experiencia.participants.length }}</p>
+        </li>
+      </ul>
+    </div>
+  
+    <div *ngIf="experiencias.length === 0 && usuarioSeleccionado">
+      <p>No se encontraron experiencias para este usuario.</p>
+    </div>
+  </div>
