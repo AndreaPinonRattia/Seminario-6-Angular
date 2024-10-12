@@ -1,5 +1,2 @@
-Versió 1:
-	- Components Home, Usuaris i Experiències creats
-	- Els HTML d'usuaris i experiencies no creats
-	- Serveis i models creats i crec que connectats a l'API
-	- Routes creades però no funciona bé el botó de Home.html
+-Componente Buscador en el cual se busque un usuario y aparezcan la lista de experiencias de las cuales el usuario en cuestión es propietario.
+-Aplicar los cambios que hicimos en la Tarea del seminario de Node.
